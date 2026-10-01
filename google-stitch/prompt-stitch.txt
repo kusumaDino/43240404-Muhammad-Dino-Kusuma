@@ -1,1 +1,17 @@
+Buatkan antarmuka web streaming film serbaguna bernama "MovieHub / CineChoice" yang menyediakan catalog film Legal (dengan badge "Streaming Official") serta opsi Legal vs Alternative Discovery Engine. 
 
+Desain UI Harus Memiliki Fitur-Fitur Berikut:
+1. Hero Section: Display film populer dengan background video trailer/backdrop melayang, rating, genre, dan 2 tombol utama: "Tonton Legal (Netflix, Disney+, Prime)" & "Mode Pencarian Alternatif".
+2. Smart Toggle / Switch Mode: Filter cepat di header untuk memisahkan daftar film "Legal Platforms" dan "Alternative Servers".
+3. Movie Cards Component:
+   - Thumbnail poster film bermutu tinggi.
+   - Badge status: "Official HD", "Rental", "Free", atau "Server 1/2".
+   - Hover Effect: Zoom-in halus, muncul ringkasan sinopsis, durasi, dan indikator Kualitas Video (1080p / 4K).
+4. Video Player Container:
+   - Custom video player UI dengan kontrol Play, Pause, Quality Switcher (1080p, 720p), Subtitle Selector (Indonesian, English), dan Toggle Cinema Mode (Gelapkan Layar).
+5. Search & Multi-Filter Bar: Input pencarian real-time berdasarkan judul, genre, tahun rilis, dan platform penyedia.
+
+Gaya Visual & Tema Desain:
+- Theme: Dark Mode Modern (Background: #0F172A, Card Accent: #1E293B, Primary Accent: #E11D48 / #6366F1).
+- Typography: Clean Sans-Serif (Inter / Poppins).
+- Layout: Grid responsif (12-column grid system) yang siap diekspor ke Figma.
